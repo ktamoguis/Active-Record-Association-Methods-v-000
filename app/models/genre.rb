@@ -19,6 +19,7 @@ class Genre < ActiveRecord::Base
     i = 0
     array = []
     self.artists.each do |artist|
+      binding.pry
       array << artist[i].name
       i += 1
     end
