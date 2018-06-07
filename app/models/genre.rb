@@ -22,5 +22,6 @@ class Genre < ActiveRecord::Base
       array << artist[i].name
       i += 1
     end
+    array
   end
 end
