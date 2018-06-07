@@ -24,7 +24,7 @@ class Artist < ActiveRecord::Base
 
   def genre_count
     #return the number of genres associated with the artist
-    binding.pry
+    #binding.pry
     count = self.songs.group(:genre_id).count
     count.flatten[1]
     #Genre
