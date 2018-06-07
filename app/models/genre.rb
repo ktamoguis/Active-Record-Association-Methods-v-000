@@ -23,5 +23,6 @@ class Genre < ActiveRecord::Base
       i += 1
     end
     array
+    binding.pry
   end
 end
