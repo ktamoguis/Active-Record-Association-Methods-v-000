@@ -18,10 +18,10 @@ class Genre < ActiveRecord::Base
     #binding.pry
     array = []
     self.artists.each do |artist|
-      binding.pry
+      #binding.pry
       array << artist.name
     end
     array
-    binding.pry
+    #binding.pry
   end
 end
